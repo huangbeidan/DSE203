@@ -1,0 +1,6 @@
+reviewid,reviewerid,bookid,reviewsource,date,rating,reviewtext,url
+10004,103,4001,Amazon,2019-09-12,4,Fantastic,
+10005,104,4001,Amazon,2019-09-10,5,Awesome,
+10006,201,3001,Other,2019-09-11,3,Yes,
+10009,301,3003,Amazon,2019-09-08,4,COOL,
+10001,101,1001,Publishsite,2019-08-14,4,OK,

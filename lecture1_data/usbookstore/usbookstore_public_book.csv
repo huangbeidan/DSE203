@@ -1,0 +1,8 @@
+isbn,genre,authors,title,publicyear,rep_year,awards,price
+2003,Fiction,{1002},Animal Farm,1945,1980,,USD7.19
+1001,Fiction,{1001},The Professor,1830,1880,,USD5.2
+3003,Non-Fiction,{1003},When Breath Becomes Air by Paul,2006,2036,,USD20
+2001,Fiction,"{1003,1004}",Game of Throne,2003,2020,,USD26.99
+3001,Non-Fiction,{1005},A brief history of time,1988,2018,,USD21
+4001,Poetry,"{1007,1008}",There there,2003,2023,,USD8
+2004,Fiction,{1002},Homage to Catalonia,1938,1990,,USD49.99
