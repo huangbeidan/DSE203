@@ -1,5 +1,5 @@
 # Tutorial for lecture one
-> How to create transformation using Data Integration Tools 
+> Demonstrate to create transformation using Data Integration Tools 
 
 
 
