@@ -2,3 +2,4 @@ id,country,state,city,streetaddress,postalcode
 s001,US,CA,santa clara,"1001 SC Ct, CA",95050
 s002,US,PA,New york,"8888 Way, PA",10022
 s101,China,Zhejiang,Hangzhou,"61801 Xinhuayuan, Gongshu",310011
+s203,EU,ENG,whales,2323 George Town,2345

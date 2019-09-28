@@ -652,6 +652,116 @@
     </GUI>
   </step>
   <step>
+    <name>countryinfo</name>
+    <type>ExcelInput</type>
+    <description />
+    <distribute>Y</distribute>
+    <custom_distribution />
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <header>Y</header>
+    <noempty>Y</noempty>
+    <stoponempty>N</stoponempty>
+    <filefield />
+    <sheetfield />
+    <sheetrownumfield />
+    <rownumfield />
+    <sheetfield />
+    <filefield />
+    <limit>0</limit>
+    <encoding />
+    <add_to_result_filenames>Y</add_to_result_filenames>
+    <accept_filenames>N</accept_filenames>
+    <accept_field />
+    <accept_stepname />
+    <file>
+      <name>/Users/beidan/Desktop/DSE203/lecture1/data/additional/country_with_id.xls</name>
+      <filemask />
+      <exclude_filemask />
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+    <fields>
+      <field>
+        <name>countryID</name>
+        <type>Integer</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format>#</format>
+        <currency />
+        <decimal />
+        <group />
+      </field>
+      <field>
+        <name>CountryName</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+      </field>
+      <field>
+        <name>Continent</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format />
+        <currency />
+        <decimal />
+        <group />
+      </field>
+    </fields>
+    <sheets>
+      <sheet>
+        <name>Sheet1</name>
+        <startrow>0</startrow>
+        <startcol>0</startcol>
+      </sheet>
+    </sheets>
+    <strict_types>N</strict_types>
+    <error_ignored>N</error_ignored>
+    <error_line_skipped>N</error_line_skipped>
+    <bad_line_files_destination_directory />
+    <bad_line_files_extension>warning</bad_line_files_extension>
+    <error_line_files_destination_directory />
+    <error_line_files_extension>error</error_line_files_extension>
+    <line_number_files_destination_directory />
+    <line_number_files_extension>line</line_number_files_extension>
+    <shortFileFieldName />
+    <pathFieldName />
+    <hiddenFieldName />
+    <lastModificationTimeFieldName />
+    <uriNameFieldName />
+    <rootUriNameFieldName />
+    <extensionFieldName />
+    <sizeFieldName />
+    <spreadsheet_type>JXL</spreadsheet_type>
+    <attributes />
+    <cluster_schema />
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
     <name>eusales</name>
     <type>CsvInput</type>
     <description />
@@ -662,7 +772,7 @@
       <method>none</method>
       <schema_name />
     </partitioning>
-    <filename>/Users/beidan/Desktop/DSE203/lecture1/data/worldbookstore/worldbookstore_public_eusales.csv</filename>
+    <filename>${Internal.Transformation.Filename.Directory}/../worldbookstore/worldbookstore_public_eusales.csv</filename>
     <filename_field />
     <rownum_field />
     <include_filename>N</include_filename>
@@ -824,7 +934,7 @@
       <method>none</method>
       <schema_name />
     </partitioning>
-    <filename>/Users/beidan/Desktop/DSE203/lecture1/data/worldbookstore/worldbookstore_public_ussales.csv</filename>
+    <filename>${Internal.Transformation.Filename.Directory}/../worldbookstore/worldbookstore_public_ussales.csv</filename>
     <filename_field />
     <rownum_field />
     <include_filename>N</include_filename>
@@ -905,116 +1015,6 @@
     <GUI>
       <xloc>64</xloc>
       <yloc>352</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>countryinfo</name>
-    <type>ExcelInput</type>
-    <description />
-    <distribute>Y</distribute>
-    <custom_distribution />
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name />
-    </partitioning>
-    <header>Y</header>
-    <noempty>Y</noempty>
-    <stoponempty>N</stoponempty>
-    <filefield />
-    <sheetfield />
-    <sheetrownumfield />
-    <rownumfield />
-    <sheetfield />
-    <filefield />
-    <limit>0</limit>
-    <encoding />
-    <add_to_result_filenames>Y</add_to_result_filenames>
-    <accept_filenames>N</accept_filenames>
-    <accept_field />
-    <accept_stepname />
-    <file>
-      <name>/Users/beidan/Desktop/DSE203/lecture1/data/additional/country_with_id.xls</name>
-      <filemask />
-      <exclude_filemask />
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-    </file>
-    <fields>
-      <field>
-        <name>countryID</name>
-        <type>Integer</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format>#</format>
-        <currency />
-        <decimal />
-        <group />
-      </field>
-      <field>
-        <name>CountryName</name>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format />
-        <currency />
-        <decimal />
-        <group />
-      </field>
-      <field>
-        <name>Continent</name>
-        <type>String</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format />
-        <currency />
-        <decimal />
-        <group />
-      </field>
-    </fields>
-    <sheets>
-      <sheet>
-        <name>Sheet1</name>
-        <startrow>0</startrow>
-        <startcol>0</startcol>
-      </sheet>
-    </sheets>
-    <strict_types>N</strict_types>
-    <error_ignored>N</error_ignored>
-    <error_line_skipped>N</error_line_skipped>
-    <bad_line_files_destination_directory />
-    <bad_line_files_extension>warning</bad_line_files_extension>
-    <error_line_files_destination_directory />
-    <error_line_files_extension>error</error_line_files_extension>
-    <line_number_files_destination_directory />
-    <line_number_files_extension>line</line_number_files_extension>
-    <shortFileFieldName />
-    <pathFieldName />
-    <hiddenFieldName />
-    <lastModificationTimeFieldName />
-    <uriNameFieldName />
-    <rootUriNameFieldName />
-    <extensionFieldName />
-    <sizeFieldName />
-    <spreadsheet_type>JXL</spreadsheet_type>
-    <attributes />
-    <cluster_schema />
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>400</xloc>
-      <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
